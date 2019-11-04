@@ -1,27 +1,33 @@
-<div class="container">
-    <ngb-tabset>
-      <ngb-tab title="Simple">
-        <template ngbTabContent>
-          <p>This is the content of the first tab!</p>
-          <ngb-alert [dismissible]="false">
-            <strong>Warning!</strong> This is an alert!
-          </ngb-alert>
-        </template>
-      </ngb-tab>
-      <ngb-tab>
-        <template ngbTabTitle><b>Fancy</b> title</template>
-        <template ngbTabContent>
-          <p>This is the content of the second tab!</p>
-          <p><ngb-progressbar type="success" [value]="25"></ngb-progressbar></p>
-          <p><ngb-progressbar type="info" [value]="50"></ngb-progressbar></p>
-          <p><ngb-progressbar type="warning" [value]="75"></ngb-progressbar></p>
-          <p><ngb-progressbar type="danger" [value]="100"></ngb-progressbar></p>
-        </template>
-      </ngb-tab>
-      <ngb-tab title="Disabled" [disabled]="true">
-        <template ngbTabContent>
-          <p>This tab is disabled</p>
-        </template>
-      </ngb-tab>
-    </ngb-tabset>
-  </div>
+<div class="bg-image">
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd; opacity: 66%;">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" routerLink="/home">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Projects</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="true">
+            Socials
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="https://www.linkedin.com/in/matthew-s-taylor/">LinkedIn</a>
+            <a class="dropdown-item" href="https://www.github.com/matthewstaylor">GitHub</a>
+            <a class="dropdown-item" href="#">Bitbucket</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <router-outlet></router-outlet>
+</div>

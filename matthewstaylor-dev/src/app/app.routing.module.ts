@@ -8,13 +8,14 @@ import { WorkScheduleComponent } from './work-schedule/work-schedule.component';
 import { HomeComponent } from './home/home.component';
 
 const appRoutes: Routes = [
-  { path: '', redirectTo: 'home', pathMatch: 'full' },
+  { path: '', pathMatch: 'full', component: AppComponent },
   { path: 'home', component: HomeComponent },
   { path: 'work-schedule', component: WorkScheduleComponent }
 ];
 
 @NgModule({
-  declarations: [],
+  declarations: [
+  ],
   imports: [
     BrowserModule,
     NgbModule,
@@ -27,4 +28,4 @@ const appRoutes: Routes = [
   bootstrap: [AppComponent]
 })
 
-export class AppModule { }
+export class AppRoutingModule { }

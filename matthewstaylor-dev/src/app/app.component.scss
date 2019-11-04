@@ -1,3 +1,19 @@
-.body {
-    background-color: #355663;
+.bg-image {
+    background-image: url("../assets/images/source-code-background.jpg");
+    background-repeat: no-repeat;
+    /* Full height */
+    max-width: 100%;
+    max-height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-size: cover;
+
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
