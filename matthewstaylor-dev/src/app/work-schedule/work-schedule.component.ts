@@ -10,6 +10,6 @@ export class WorkScheduleComponent implements OnInit {
   title = 'matthewstaylor-dev';
 
   ngOnInit() {
-    console.log("work schedule yurrr");
+    console.log("work schedule");
   }
 }
