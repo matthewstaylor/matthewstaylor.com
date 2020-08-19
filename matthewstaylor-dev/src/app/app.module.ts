@@ -4,17 +4,21 @@ import { Routes, RouterModule } from '@angular/router';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { AppComponent } from './app.component';
-import { WorkScheduleComponent } from './work-schedule/work-schedule.component';
 import { HomeComponent } from './home/home.component';
+import { ProjectsComponent } from './projects/projects.component';
 
 const appRoutes: Routes = [
-  { path: '', redirectTo: 'home', pathMatch: 'full' },
+  { path: '', pathMatch: 'full', component: HomeComponent },
   { path: 'home', component: HomeComponent },
-  { path: 'work-schedule', component: WorkScheduleComponent }
+  { path: 'projects', component: ProjectsComponent }
 ];
 
 @NgModule({
-  declarations: [],
+  declarations: [
+    AppComponent,
+    HomeComponent,
+    ProjectsComponent
+  ],
   imports: [
     BrowserModule,
     NgbModule,

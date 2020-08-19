@@ -2,8 +2,8 @@ import { Component, NgModule, OnInit } from '@angular/core';
 import { NgbModule, NgbDropdown } from '@ng-bootstrap/ng-bootstrap';
 import { Routes, RouterLink } from '@angular/router';
 
-import { WorkScheduleComponent } from './work-schedule/work-schedule.component';
 import { HomeComponent } from './home/home.component';
+import { ProjectsComponent } from './projects/projects.component';
 
 @Component({
   selector: 'app-root',
@@ -15,11 +15,11 @@ import { HomeComponent } from './home/home.component';
   imports: [
     NgbModule,
     NgbDropdown,
-    RouterLink,
+    RouterLink
   ],
   declarations: [
     HomeComponent,
-    WorkScheduleComponent
+    ProjectsComponent
   ]
 })
 export class AppComponent implements OnInit {
