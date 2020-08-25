@@ -1,6 +1,6 @@
 .bg-image {
     //background-image: url("../assets/images/source-code-background.jpg");
-    background-color: gray;
+    background-color: #1F2833;
     background-repeat: no-repeat;
     /* Full height */
     max-width: 100%;
@@ -17,4 +17,17 @@
     position: fixed;
     top: 0;
     left: 0;
+}
+
+
+@media only screen and (min-width: 0px) {
+    .dropdown-menu {
+        width: 10%;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .dropdown-menu {
+        width: 100%;
+    }
 }

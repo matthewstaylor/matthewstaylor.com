@@ -8,7 +8,6 @@ import { Component, OnInit } from '@angular/core';
 export class ProjectsComponent implements OnInit {
 
   ngOnInit() {
-    console.log('testing')
+    window.scroll(0,0);
   }
-
 }

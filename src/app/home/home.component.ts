@@ -10,6 +10,5 @@ export class HomeComponent implements OnInit {
   mainImg: string = "../assets/images/headshot.jpg";
 
   ngOnInit() {
-    console.log("honey I'm home!!!");
   }
 }

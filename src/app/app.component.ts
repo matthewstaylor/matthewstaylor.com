@@ -26,6 +26,5 @@ export class AppComponent implements OnInit {
   title = 'matthewstaylor-dev';
 
   ngOnInit() {
-    console.log("main page");
   }
 } 

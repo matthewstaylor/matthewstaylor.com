@@ -23,6 +23,7 @@
     "bootstrap": "^4.3.1",
     "jquery": "^3.4.1",
     "ng-tether": "^0.1.0",
+    "ng2-pdf-viewer": "^6.3.2",
     "ngx-bootstrap": "^5.1.1",
     "popper.js": "^1.15.0",
     "rxjs": "~6.4.0",

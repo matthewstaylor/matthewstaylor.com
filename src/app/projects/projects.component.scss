@@ -1,13 +1,29 @@
-.card {
-    // opacity: 1;
-    // display: block;
-    // margin-left: auto;
-    // margin-right: auto;
-    // width: 50%;
-    // width: 25rem;
+@media only screen and (min-width: 0px) {
+    .card {
+        width: 21rem; 
+        height: 40rem;
+        border-width: 1rem;
+        border-color: #45A29E;
+        background-color: #C5C6C7;
+        margin-bottom: 5rem;
+        margin-top: -3rem;
+        align-self: center;
+        margin-left: 1rem;
+    }
+}
 
-    // position: absolute;
-    // left: 50%;
-    // top: 50%;
-    // transform: translate(-50%, -50%);
+@media only screen and (min-width: 992px) {
+    .card {
+        width: 23rem; 
+        height: 40rem;
+        border-width: 1rem;
+        border-color: #45A29E;
+        background-color: #C5C6C7;
+        margin-bottom: 0rem;
+        margin-top: 0rem;
+    }
+}
+
+.list-group-item {
+    background-color: #C5C6C7;
 }
