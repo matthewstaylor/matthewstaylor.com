@@ -1,0 +1,16 @@
+@media only screen and (min-width: 0px) {
+    .pdf {
+        overflow-y: hidden;
+        margin: 1rem;
+        margin-top: 2rem;
+        height: 640px;
+        width: 340px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .pdf {
+        height: 95%;
+        width: 100%;
+    }
+}
